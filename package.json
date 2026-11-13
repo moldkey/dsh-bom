@@ -1,0 +1,33 @@
+{
+  "name": "dsh-bom",
+  "version": "0.1.0",
+  "description": "BOM 解析与报价：材料成本、人工/制费/损耗、毛利与建议单价",
+  "type": "module",
+  "main": "lib/index.js",
+  "files": [
+    "lib",
+    "cordis.patch.yml",
+    "README.md"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "bom",
+    "物料清单",
+    "cost",
+    "quote"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moldkey/dsh-bom.git"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "engines": {
+    "dsh": ">=0.2.0-rc.2"
+  }
+}
