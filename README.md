@@ -1,3 +1,4 @@
+[![DSHIO/T 10](https://dshio.org/badge/std.svg)](https://dshio.org/10/) [![deepseekbase](https://deepseekbase.com/badge/dsh-bom.svg)](https://deepseekbase.com/plugins/dsh-bom/)
 <p align="center"><strong>dsh-bom — BOM 解析与报价</strong></p>
 
 CSV/TSV BOM → 成本汇总与建议报价。
